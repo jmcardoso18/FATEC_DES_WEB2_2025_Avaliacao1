@@ -1,0 +1,2 @@
+titulo p | autor p | editora p | isbn p
+titulo p 1 | autor p 1 | editora p 2 | i

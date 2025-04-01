@@ -1,0 +1,7 @@
+ |  |  | 
+Livro 1 p | Autor 1 p | Editora 1 p | ISBN 1 p
+Livro 2 | Autor 2 | Editora 1 | ISBN 1 p
+ |  |  | 
+Livro 1 p | Autor 2 | Editora 1 | ISBN 1 p
+livro 1 | autor 2 | editora 3 | isbn 4
+Livro 2 | Autor 1 p | Editora 2 | isbn 4
