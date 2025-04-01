@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true|| $_SESSION["username"]!=='Bibliotecário'){
     header("location: login.php");
     exit;
 }
@@ -73,9 +73,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             </div>
             <div class="p-2">
                 <a href="bibliotecario.php" class="btn btn-primary">Voltar</a> 
-                <button type="submit" class="btn btn-success p-2">Enviar</button>
-                <a href="listarLivros.php" class="btn btn-primary">Ver Lista</a> 
-                <a href="logout.php" class="btn btn-danger">Sair da conta</a>        
+                <button type="submit" class="btn btn-success p-2">Enviar</button>        
             </div>
         </div>
     </form>
