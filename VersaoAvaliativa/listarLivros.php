@@ -7,6 +7,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 
 $livros=file('livros.txt', FILE_IGNORE_NEW_LINES);
+if(!file_exists("livros.txt")){
+    $handle = fopen("livros.txt", "w");
+} else {
+    $handle = fopen("livros.txt", "a");
+}
 ?>
  
 <!DOCTYPE html>
@@ -47,7 +52,15 @@ $livros=file('livros.txt', FILE_IGNORE_NEW_LINES);
   
     </div>
     <div style="margin-top: 300px;">
-        <a href="logout.php" class="btn btn-danger">Sair da conta</a>
+    <button class="btn btn-primary" onclick="voltar()">Voltar</button>
+
+        <script>
+        function voltar() {
+            window.history.back();
+        }
+        </script>
+  
+    <a href="logout.php" class="btn btn-danger">Sair da conta</a>
     </div>
 
 </body>

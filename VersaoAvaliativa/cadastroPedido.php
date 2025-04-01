@@ -68,12 +68,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true || $_SESSION[
             </div>
             <div class="p-2">
                 <a href="professor.php" class="btn btn-primary" >Voltar</a> 
-              
                 <button type="submit" class="btn btn-success p-2">Enviar</button>
-                <a onclick="abrirNovaAba()" class="btn btn-primary">Ver Lista</a> 
-                <script>function abrirNovaAba(){
-                    window.open("http://localhost/Avalia%C3%A7%C3%A3oDW1/listarLivros.php",'_blank')
-                }</script>
                 <a href="logout.php" class="btn btn-danger">Sair da conta</a>        
             </div>
         </div>
