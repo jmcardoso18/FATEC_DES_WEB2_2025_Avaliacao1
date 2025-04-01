@@ -1,0 +1,5 @@
+titulo p | autor p | editora p | isbn p
+titulo p 1 | autor p 1 | editora p 2 | i
+titulo p 1 | autor p | editora p | i
+titulo p 1 | k | n | v
+titulo p 1 | autor p 1 | n | isbn p
